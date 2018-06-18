@@ -1,2 +1,2 @@
 # portfolio
-Personal Site Portfolio
+Portfolio built using React.js
