@@ -16,6 +16,8 @@ import mysql from "./icons/mysql.png";
 import node from "./icons/nodejs.png";
 import react from "./icons/React.png";
 import jquery from "./icons/jquery.png";
+import express from "./icons/express.png";
+
 
 class App extends Component {
     render() {
@@ -27,7 +29,7 @@ class App extends Component {
                 <hr />
                 <div className="row">
                     <div className="col">
-                        <h4 className="bio">I was raised by wolves.</h4>
+                        <h4 className="bio">I am a recent graduate of the UCSD Full-time Web Development Bootcamp.</h4>
                     </div>
                 </div>
                 <h3 className="skills">Skills</h3>
@@ -53,13 +55,14 @@ class App extends Component {
                         <div className="row">
                             <div className="col-sm-6">
                                 <IconImage source={jquery} alt="jquery" />
-                                <IconImage source={mern} alt="mern" />
-                                <IconImage source={mysql} alt="mysql" />
+                                <IconImage source={mongodb} alt="mongodb" />
+                                <IconImage source={express} alt="express" />
                             </div>
                             <div className="col-sm-6">
-                                <IconImage source={mongodb} alt="mongodb" />
+                              
                                 <IconImage source={react} alt="react" />
                                 <IconImage source={node} alt="node" />
+                                <IconImage source={mysql} alt="mysql" />
                             </div>
                         </div>
                     </div>
