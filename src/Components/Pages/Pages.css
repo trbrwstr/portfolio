@@ -1,0 +1,212 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+
+    margin-bottom: 120px;
+    text-align: center;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+}
+.footer .text-muted {
+    font-family: 'CooperHewittBold', sans-serif;
+    color: #333333;
+    padding-top: 4.5%;
+}
+
+.jumbotron, .navbar {
+    background: transparent !important;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    text-align: left;
+}
+
+.picContainer {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #c6c6c6;
+  }
+  
+  .picContainer:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text a {
+    font-family: 'CooperHewittBook', sans-serif;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .textWithDeployed a:first-child {
+      margin-right: 5px;
+      border-right: 1px solid white;
+      padding-right: 5px;
+  }
+
+.text:visited {
+    color: none;
+}
+
+.col-md-6, .col-md-4, .col-sm-6 {
+    padding: 0;
+}
+
+.backend, .frontend, .skills {
+    margin-top: 90px;
+}
+
+.profilePic {
+    width: 30%;
+    margin-left: 10%;
+    float: left;
+}
+
+.bio {
+    padding: 10% 10% 0 10%;
+    width: 60%;
+    float: left;
+    font-family: 'CooperHewittBook', sans-serif;
+}
+
+.iconImage {
+    width: 20%;
+    margin-left: 10%;
+    margin-bottom: 60px;
+    float: left;
+}
+
+.smallerPic {
+    width: 80%;
+}
+
+.card {
+    font-family: 'CooperHewittBook', sans-serif;
+    font-size: 20px;
+    width: 20%;
+    border: none;
+    float: left;
+    margin-left: 4.5%;
+}
+
+.card .iconImage {
+    margin-left: 34%;
+    width: 30%;
+}
+
+.card .card-body {
+    margin-top: -40px;
+}
+
+.contactCol {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media screen and (min-width: 1130px) {
+    .text a {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .bio {
+        padding: 5% 10% 0 10%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .profilePic {
+        width: 30%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+    .bio {
+        padding: 10% 10% 0 10%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .profilePic {
+        width: 35%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+    .bio {
+        padding: 5% 10% 0 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profilePic {
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 20px;
+    }
+    .bio {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        float: left;
+        font-family: 'CooperHewittBook', sans-serif;
+    
+    }
+    .iconImage {
+        width: 22%;
+        margin-left: 8%;
+        margin-bottom: 60px;
+        float: left;
+    }
+
+    .card {
+        font-family: 'CooperHewittBook', sans-serif;
+        font-size: 20px;
+        width: 40%;
+        border: none;
+        float: left;
+        margin-left: 4.5%;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .card {
+        font-family: 'CooperHewittBook', sans-serif;
+        font-size: 20px;
+        width: 60%;
+        border: none;
+        float: left;
+        margin-left: 23.5%;
+    }
+}
