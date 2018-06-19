@@ -5,6 +5,7 @@ import Card from "../Card";
 import Footer from "../Footer";
 import "./Pages.css";
 import ScrollToTop from 'react-scroll-up';
+import FaArrowCircleUp from 'react-icons/lib/fa/arrow-circle-up';
 {/*import Mailto from 'react-mailto.js';*/}
 
 class App extends Component {
@@ -24,11 +25,10 @@ class App extends Component {
                 </div>
                 <Footer />
                 <ScrollToTop showUnder={700}>
-  <span>UP</span>
-</ScrollToTop>
-            </div>
+                    <span><FaArrowCircleUp /></span>
+                </ScrollToTop>
+                </div>
         )
     }
 }
-
 export default App;

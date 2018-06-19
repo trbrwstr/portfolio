@@ -1,11 +1,10 @@
 import React from "react";
-import IconImage from "../IconImage";
-
+import FaCreativeCommons from 'react-icons/lib/fa/creative-commons';
 const Footer = () =>
 
     <footer className="footer">
         <div className="container">
-            <p className="text-muted text-center">TRBRWSTR 2018</p>
+            <p className="text-muted text-center"><FaCreativeCommons /> trbrwstr 2018</p>
         </div>
     </footer>
 

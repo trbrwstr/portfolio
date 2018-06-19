@@ -10,13 +10,14 @@ import css from "./icons/css.png";
 import github from "./icons/github.png";
 import handlebars from "./icons/handlebars.png";
 import javascript from "./icons/javascript.png";
-import mern from "./icons/mern.jpg";
 import mongodb from "./icons/mongodb.png";
 import mysql from "./icons/mysql.png";
 import node from "./icons/nodejs.png";
 import react from "./icons/React.png";
 import jquery from "./icons/jquery.png";
 import express from "./icons/express.png";
+import ScrollToTop from 'react-scroll-up';
+import FaArrowCircleUp from 'react-icons/lib/fa/arrow-circle-up';
 
 
 class App extends Component {
@@ -24,12 +25,12 @@ class App extends Component {
         return (
             <div>
                 <Navbar />
-                <Jumbotron phrase="Placeholder" subtitle="Placeholder 2: Electric Boogaloo" />
+                <Jumbotron phrase="About" />
                 <h3>Story</h3>
                 <hr />
                 <div className="row">
                     <div className="col">
-                        <h4 className="bio">I am a recent graduate of the UCSD Full-time Web Development Bootcamp.</h4>
+                        <h4 className="bio">My name is Timothy Brewster,<br />and I've grown in the last few years.<br />I'm a recent graduate of the Full-Time Web Development Bootcamp at the UCSD Extension.<br /> In that brief three-month period I've picked up and built the majority of skills and projects that you'll find on this site.<br />But I came away with more than that.</h4>
                     </div>
                 </div>
                 <h3 className="skills">Skills</h3>
@@ -68,6 +69,9 @@ class App extends Component {
                     </div>
                 </div>
                 <Footer />
+                <ScrollToTop showUnder={700}>
+                    <span><FaArrowCircleUp /></span>
+                </ScrollToTop>
             </div>
         )
     }

@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import Jumbotron from "../Jumbotron";
 import Picture from "../Picture";
 import Footer from "../Footer";
+import FaArrowCircleUp from 'react-icons/lib/fa/arrow-circle-up';
 import "./Pages.css";
 
 
@@ -78,7 +79,7 @@ class Home extends Component {
                 </div>
                 <Footer />
                 <ScrollToTop showUnder={700}>
-                    <span>UP</span>
+                    <span><FaArrowCircleUp /></span>
                 </ScrollToTop>
             </div>
         )
