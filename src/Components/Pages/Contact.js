@@ -13,7 +13,7 @@ class App extends Component {
         return (
             <div>
                 <Navbar />
-                <Jumbotron phrase="Get In Touch" />
+                <Jumbotron phrase="Contact" subtitle="Get in touch with me" />
                 <hr />
                 <div className="row">
                     <div className="col contactCol">

@@ -13,7 +13,7 @@ class Home extends Component {
         return (
             <div>
                 <Navbar />
-                <Jumbotron phrase="Projects" />
+                <Jumbotron phrase="Projects" subtitle="See what I've done" />
                 <h3>Team</h3>
                 <hr />
                 <div className="row">

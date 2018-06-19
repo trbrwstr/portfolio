@@ -25,7 +25,7 @@ class App extends Component {
         return (
             <div>
                 <Navbar />
-                <Jumbotron phrase="About" />
+                <Jumbotron phrase="About" subtitle="Get to know me"  />
                 <h3>Story</h3>
                 <hr />
                 <div className="row">
