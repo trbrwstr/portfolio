@@ -30,7 +30,8 @@ class App extends Component {
                 <hr />
                 <div className="row">
                     <div className="col">
-                        <h4 className="bio">My name is Timothy Brewster,<br />and I've grown in the last few years.<br />I'm a recent graduate of the Full-Time Web Development Bootcamp at the UCSD Extension.<br /> In that brief three-month period I've picked up and built the majority of skills and projects that you'll find on this site.<br />But I came away with more than that.</h4>
+                        <h4 className="bio">My name is Timothy Brewster,<br /> I'm a recently graduated Junior Developer well versed in managing projects, research, and time. I love collabrating with teams.
+                        <br />Motivated and currently seeking a position as a Front-End Developer. </h4>
                     </div>
                 </div>
                 <h3 className="skills">Skills</h3>
