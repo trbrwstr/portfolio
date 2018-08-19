@@ -64,7 +64,8 @@ class Home extends Component {
                     </div>
                 </div>
                 <br />
-                <h3>Personal</h3>
+            
+                {/*<h3>Personal</h3>
                 <hr />
                 <div className="row">
                     <div className="col-md-4">
@@ -76,12 +77,13 @@ class Home extends Component {
                     <div className="col-md-4">
                         <Picture source={require("./images/500x500.png")} alt="Placeholder" />
                     </div>
-                </div>
+                </div>*/}
+                
                 <Footer />
                 <ScrollToTop showUnder={700}>
                     <span><FaArrowCircleUp /></span>
                 </ScrollToTop>
-            </div>
+                </div> 
         )
     }
 }
