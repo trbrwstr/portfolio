@@ -43,7 +43,7 @@ class Home extends Component {
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <Picture source={require("./images/RomaAntiqua.png")} alt="Roma Antiqua" github="https://github.com/trbrwstr/roma-antiqua" />
+                        <Picture source={require("./images/RomaAntiqua.png")} alt="Roma Antiqua" github="https://github.com/trbrwstr/roma-antiqua" deployed="https://trbrwstr.github.io/roma-antiqua/"/>
                     </div>
                     <div className="col-md-4">
                         <Picture source={require("./images/Memory.png")} alt="Memory" github="https://github.com/trbrwstr/memory-game" />
