@@ -21,7 +21,7 @@ class Home extends Component {
                         <Picture source={require("./images/Dia.png")} alt="dia" github="https://github.com/DiaApp/Dia-App" deployed="https://diaapp.github.io/Dia-App/" />
                     </div>
                     <div className="col-md-4">
-                        <Picture source={require("./images/SimpleFridge.png")} alt="Simple Fridge" github="https://github.com/Simple-Fridge/SIMPLE-FRIDGE" />
+                        <Picture source={require("./images/SimpleFridge.png")} alt="Simple Fridge" github="https://github.com/Simple-Fridge/SIMPLE-FRIDGE" deployed="https://simple-fridge.herokuapp.com/" />
                     </div>
                     <div className="col-md-4">
                         <Picture source={require("./images/whistlr-black.png")} alt="Whistlr" github="https://github.com/kabdullah9/Whistlr" deployed="https://whistlr.herokuapp.com/" />
@@ -32,10 +32,10 @@ class Home extends Component {
                 <hr />
                 <div className="row">
                     <div className="col-md-4">
-                        <Picture source={require("./images/EatdaBurger.png")} alt="Eat Da Burger" github="" />
+                        <Picture source={require("./images/EatdaBurger.png")} alt="Eat Da Burger" github="https://github.com/trbrwstr/burger" />
                     </div>
                     <div className="col-md-4">
-                        <Picture source={require("./images/Hangman.png")} alt="Hangman" github="" />
+                        <Picture source={require("./images/Hangman.png")} alt="Hangman" github="https://github.com/trbrwstr/hangman" />
                     </div>
                     <div className="col-md-4">
                         <Picture source={require("./images/Times.png")} alt="Times" github="" />
@@ -46,7 +46,7 @@ class Home extends Component {
                         <Picture source={require("./images/RomaAntiqua.png")} alt="Roma Antiqua" github="" />
                     </div>
                     <div className="col-md-4">
-                        <Picture source={require("./images/Memory.png")} alt="Memory" github="" />
+                        <Picture source={require("./images/Memory.png")} alt="Memory" github="https://github.com/trbrwstr/memory-game" />
                     </div>
                     <div className="col-md-4">
                         <Picture source={require("./images/Crystal.png")} alt="Crystal" github="" />
@@ -57,7 +57,7 @@ class Home extends Component {
                         <Picture source={require("./images/Psychic.png")} alt="Psychic" github="" />
                     </div>
                     <div className="col-md-4">
-                        <Picture source={require("./images/Bamazon.png")} alt="Bamazon" github="" />
+                        <Picture source={require("./images/Bamazon.png")} alt="Bamazon" github="https://github.com/trbrwstr/bamazon" />
                     </div>
                     <div className="col-md-4">
                         <Picture source={require("./images/GIPHY.png")} alt="GIPHY" github="" />
