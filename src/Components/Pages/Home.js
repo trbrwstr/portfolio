@@ -13,7 +13,7 @@ class Home extends Component {
         return (
             <div>
                 <Navbar />
-                <Jumbotron phrase="Projects" subtitle="See what I've done" />
+                <Jumbotron phrase="Projects" />
                 <h3>Team</h3>
                 <hr />
                 <div className="row">
@@ -38,18 +38,18 @@ class Home extends Component {
                         <Picture source={require("./images/Hangman.png")} alt="Hangman" github="https://github.com/trbrwstr/hangman" />
                     </div>
                     <div className="col-md-4">
-                        <Picture source={require("./images/Times.png")} alt="Times" github="" />
+                        <Picture source={require("./images/Times.png")} alt="Times" github="https://github.com/trbrwstr/News-Scrape" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <Picture source={require("./images/RomaAntiqua.png")} alt="Roma Antiqua" github="" />
+                        <Picture source={require("./images/RomaAntiqua.png")} alt="Roma Antiqua" github="https://github.com/trbrwstr/roma-antiqua" />
                     </div>
                     <div className="col-md-4">
                         <Picture source={require("./images/Memory.png")} alt="Memory" github="https://github.com/trbrwstr/memory-game" />
                     </div>
                     <div className="col-md-4">
-                        <Picture source={require("./images/Crystal.png")} alt="Crystal" github="" />
+                        <Picture source={require("./images/Crystal.png")} alt="Crystal" github="https://github.com/trbrwstr/crystal-game" />
                     </div>
                 </div>
                 <div className="row">
@@ -60,7 +60,7 @@ class Home extends Component {
                         <Picture source={require("./images/Bamazon.png")} alt="Bamazon" github="https://github.com/trbrwstr/bamazon" />
                     </div>
                     <div className="col-md-4">
-                        <Picture source={require("./images/GIPHY.png")} alt="GIPHY" github="" />
+                        <Picture source={require("./images/GIPHY.png")} alt="GIPHY" github="https://github.com/trbrwstr/Giphy-App" />
                     </div>
                 </div>
                 <br />
