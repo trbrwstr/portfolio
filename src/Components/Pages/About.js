@@ -29,13 +29,15 @@ class App extends Component {
                 <hr />
                 <div className="row">
                     <div className="col">
-                        <h4 className="bio">Hey everyone, Tim here. Welcome to my website. Here you'll find my portfolio,
-                         contact info, and more about me.<br /><br />
+                        <h4 className="bio">Hey everyone, Tim here. Welcome to my website. Here you'll find my portfolio, 
+                        contact info, and more about me.<br /><br />
                         My main motivation in life is to leave the world in better condition than I found it. 
-                        I believe that properly applied technology will be one of the best ways in achieving this.<br />
+                        I believe that properly applied technology will be one of the best ways in achieving this.
                         As a student at UCSD's Coding Bootcamp, I learned how to create full MERN 
                         stack web applications. Now, I study Computer Science at University of the People. 
-                        Where I most recently started learning Python.<br /><br />
+                        Where I most recently started learning Python. I wish to use these skills to build
+                        applications and programs that have a positive impact.<br /><br />
+                        
                         {/*I haven't always been this focused. All journeys contain struggle. My myth is no different.
                         I was diagnosed with anxiety, adhd, and clinical depression at a very young age. 
                         For as long as I can remember, my life was a never-ending cycle of negativity.
