@@ -4,7 +4,7 @@ const Footer = () =>
 
     <footer className="footer">
         <div className="container">
-            <p className="text-muted text-center"><FaCreativeCommons /> Timothy Brewster 2018-2019</p>
+            <p className="text-muted text-center"><FaCreativeCommons />2019 Timothy Brewster</p>
         </div>
     </footer>
 

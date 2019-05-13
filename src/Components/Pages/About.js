@@ -25,13 +25,25 @@ class App extends Component {
         return (
             <div>
                 <Navbar />
-                <Jumbotron phrase="About Me" />
+                <Jumbotron phrase="Timothy Brewster" subtitle="Clean Functional Design"/>
                 <h3>Story</h3>
                 <hr />
                 <div className="row">
                     <div className="col">
-                        <h4 className="bio">My name is Timothy Brewster,<br /> I'm a recently graduated Junior Developer well versed in managing projects, research, and time. I love collabrating with teams.
-                        <br />Motivated and currently seeking a position as a Front-End Developer. </h4>
+                        <h4 className="bio">Hey everyone, Tim here.<br />
+                        My main motivation in life is to leave the world in better condition than I found it. 
+                        Properly applied technology is one of the best components in achieving this.<br />
+                        As a recent graduate of UCSD's Coding Bootcamp, I learned how to create full MERN stack web applications.
+                        I currently study Computer Science at University of the People. I will continue to learn new skills in the
+                        pursuit of my goals.<br /><br />
+                        {/*But I haven't always been this focused. All journeys contain struggle. My myth is no different.
+                        I was diagnosed with anxiety, adhd, and clinical depression at a very young age. 
+                        For as long as I can remember, my life was a never-ending cycle of negativity,.
+        This isn't about pity. This is about perseverence.*/}
+                        
+
+                        </h4>
+                        
                     </div>
                 </div>
                 <h3 className="skills">Skills</h3>
@@ -61,7 +73,6 @@ class App extends Component {
                                 <IconImage source={express} alt="express" />
                             </div>
                             <div className="col-sm-6">
-                              
                                 <IconImage source={react} alt="react" />
                                 <IconImage source={node} alt="node" />
                                 <IconImage source={mysql} alt="mysql" />
