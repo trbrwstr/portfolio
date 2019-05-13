@@ -8,7 +8,7 @@ export default class ErrorNotFound extends Component {
             return (
             <div id='error'>
                 <Navbar />
-                <Jumbotron phrase="404 Page Not Found" subtitle="Not the droid you're looking for. Move along." />
+                <Jumbotron phrase="404 Page Not Found" subtitle="Well, I don't know how you got here." />
             </div>
         );          
     }
