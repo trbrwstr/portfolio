@@ -30,16 +30,18 @@ class App extends Component {
                 <hr />
                 <div className="row">
                     <div className="col">
-                        <h4 className="bio">Hey everyone, Tim here.<br />
+                        <h4 className="bio">Hey everyone, Tim here. Welcome, to my <br />
                         My main motivation in life is to leave the world in better condition than I found it. 
-                        Properly applied technology is one of the best components in achieving this.<br />
-                        As a recent graduate of UCSD's Coding Bootcamp, I learned how to create full MERN stack web applications.
-                        I currently study Computer Science at University of the People. I will continue to learn new skills in the
-                        pursuit of my goals.<br /><br />
-                        {/*But I haven't always been this focused. All journeys contain struggle. My myth is no different.
+                        I believe that properly applied technology will be one of the best ways in achieving this.<br />
+                        As a student at UCSD's Coding Bootcamp, I learned how to create full MERN 
+                        stack web applications. Now, I am studying Computer Science at University of the People. 
+                        Where I most recently started learning Python.<br /><br />
+                        {/*I haven't always been this focused. All journeys contain struggle. My myth is no different.
                         I was diagnosed with anxiety, adhd, and clinical depression at a very young age. 
-                        For as long as I can remember, my life was a never-ending cycle of negativity,.
-        This isn't about pity. This is about perseverence.*/}
+                        For as long as I can remember, my life was a never-ending cycle of negativity.
+                        But this story isn't about pity. Its about perseverence.
+                        
+                        */}
                         
 
                         </h4>
