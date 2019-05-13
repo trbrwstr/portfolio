@@ -34,7 +34,7 @@ class App extends Component {
                         My main motivation in life is to leave the world in better condition than I found it. 
                         I believe that properly applied technology will be one of the best ways in achieving this.<br />
                         As a student at UCSD's Coding Bootcamp, I learned how to create full MERN 
-                        stack web applications. Now, I am studying Computer Science at University of the People. 
+                        stack web applications. Now, I study Computer Science at University of the People. 
                         Where I most recently started learning Python.<br /><br />
                         {/*I haven't always been this focused. All journeys contain struggle. My myth is no different.
                         I was diagnosed with anxiety, adhd, and clinical depression at a very young age. 
