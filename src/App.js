@@ -4,6 +4,7 @@ import {Switch} from "react-router-dom";
 import Home from "./Components/Pages/Home";
 import Contact from "./Components/Pages/Contact";
 import About from "./Components/Pages/About";
+import ErrorNotFound from "./Components/ErrorNotFound";
 
 
 class App extends Component {
