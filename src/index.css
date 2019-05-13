@@ -20,6 +20,10 @@ html, body {
     font-weight: 600;
 }
 
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+
 .jumbotronMain, .jumbotron p {
     font-family: 'Raleway', sans-serif;
 }
