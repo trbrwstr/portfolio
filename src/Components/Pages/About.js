@@ -26,11 +26,11 @@ class App extends Component {
             <div>
                 <Navbar />
                 <Jumbotron phrase="Timothy Brewster" subtitle="Clean Functional Design"/>
-                <h3>Story</h3>
                 <hr />
                 <div className="row">
                     <div className="col">
-                        <h4 className="bio">Hey everyone, Tim here. Welcome, to my <br />
+                        <h4 className="bio">Hey everyone, Tim here. Welcome to my website. Here you'll find my portfolio,
+                         contact info, and more about me.<br />
                         My main motivation in life is to leave the world in better condition than I found it. 
                         I believe that properly applied technology will be one of the best ways in achieving this.<br />
                         As a student at UCSD's Coding Bootcamp, I learned how to create full MERN 
