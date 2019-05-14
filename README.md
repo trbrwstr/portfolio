@@ -1,12 +1,11 @@
 # Personal Website
 [https://www.trbrwstr.com]
 To do:
-* Move to AWS
+* Move to Netlify
 * Add pages
 ## Portfolio
-All the projects I did during my time at the boot camp. Made all the logos myself using Canva.
+All my projects
 To do:
-* Add personal projects
 ## Biography
 To do:
 * Add rest of bio
